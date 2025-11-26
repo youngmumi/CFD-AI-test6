@@ -1,0 +1,16 @@
+{
+  "Model": "CubicSpline + XGB Hybrid (with 3600 interpolated data)",
+  "CL": {
+    "MSE": 0.0002737074667465972,
+    "R2": 0.9992930223051187
+  },
+  "CD": {
+    "MSE": 0.0032514589026023024,
+    "R2": 0.9989137821276587
+  },
+  "smoothing": {
+    "s_cl": 97.33520372604887,
+    "s_cd": 766.5424061707866
+  },
+  "XGB_available": true
+}
