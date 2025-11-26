@@ -1,0 +1,20 @@
+{
+  "Model": "MLP + XGB residual ensemble",
+  "MLP_params": {
+    "hidden_layer_sizes": [
+      64,
+      64
+    ],
+    "activation": "relu",
+    "alpha": 0.0001
+  },
+  "XGB_available": true,
+  "CL": {
+    "MSE": 0.011585867435726345,
+    "R2": 0.9717597118854744
+  },
+  "CD": {
+    "MSE": 0.034050347312720455,
+    "R2": 0.9878950098816001
+  }
+}
